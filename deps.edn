@@ -1,0 +1,7 @@
+{:paths ["src"]
+ :deps
+ {io.pedestal/pedestal.jetty {:mvn/version "0.7.1"}
+  org.slf4j/slf4j-simple     {:mvn/version "2.0.9"}
+  buddy/buddy-core           {:mvn/version "1.12.0-430"}}
+ :aliases
+ {:main {:main-opts ["-m" "mephi.core"]}}}
